@@ -8,7 +8,7 @@ const Home = () => {
 const { loading, data } = useQuery(QUERY_THOUGHTS);
 // below is called optional chaining and at this point is only supported by browsers and not supported by node servers
 const thoughts = data?.thoughts || [];
-console.log(thoughts);
+//console.log(thoughts);
 
   return (
     <main>
